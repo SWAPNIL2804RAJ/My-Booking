@@ -51,8 +51,12 @@ function Navbar() {
           MYBOOKINGS
         </span>
         <div className="navItems">
-          {isAuth ? (
-            <button onClick={handleLogout} className="navButton">
+          {/* {isAuth == "false"?<h1>hello</h1>:<h1>{isAuth}</h1>} */}
+          {JSON.parse(isAuth) ? (
+            <button onClick={()=>{
+              console.log("isAuth", isAuth);
+              // handleLogout
+              }} className="navButton">
               Sign Out
             </button>
           ) : (
