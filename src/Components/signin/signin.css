@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+
+
+form{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, rgb(166,28,166), #cc80ff)
+}
+
+.innerBox{
+    /* min-width: 200px; */
+    height: fit-content;
+    width: 75%;
+    background-color: #ffff;
+    box-shadow: 1px 1px 4px rgb(0, 0, 0, 0.2);
+    padding: 30px;
+    border-radius: 10px;
+
+}
+
+.heading{
+    margin-bottom: 30px;
+}
+
+.user{
+    margin-bottom: 20px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer button{
+    outline: none;
+    border: none;
+    background: linear-gradient(to right, rgb(135,1,135), #fd8aff);
+    color: #ffff;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10px 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.footer button:hover{
+    background-color: rgb(193, 64, 193);
+}
+
+.footer button:disabled{
+    background-color: rgb(145, 145, 145) !important;
+}
+
+.footer .errorMsg{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 700;
+    color: rgb(172, 0, 0);
+    font-size: 0.875rem;
+}
+
+.footer p{
+    font-weight: bold;
+    color: #000;
+}
+
+.footer p span a{
+    font-weight: bold;
+    color: rgb(193,64,193);
+    letter-spacing: 1px;
+    font-size: 1rem;
+    text-decoration: none;
+}
