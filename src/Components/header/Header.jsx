@@ -127,7 +127,7 @@ const Header = ({ type }) => {
                 Register / Sign Up
               </button>
             )} */}
-            {isAuth? <h2>{'Welcome,'+ username} </h2> : <button onClick={() => navigate("/signup")} className="headerBtn">Register / Sign Up</button>}
+            {isAuth? <h2>{'Welcome, '+ username} </h2> : <button onClick={() => navigate("/signup")} className="headerBtn">Register / Sign Up</button>}
             <div className="headerSearch">
               <div className="headerSearchItem">
                 <FontAwesomeIcon icon={faBed} className="headerIcon" />
