@@ -35,10 +35,10 @@ const FeaturedProperty =() =>{
             </div>
             </div>
             <div className="fpItem">
-            <img src="http://hotelrajhansinternational.com/system/images/img7.jpg" alt="" className="fpImg"/>
-            <span className="fpName">Hotel Rajhans International</span>
-            <span className="fpCity">Bhagalpur</span>
-            <span className="fpPrice">Starting from Rs.4,500</span>
+            <img src="https://lh3.googleusercontent.com/p/AF1QipNlzIpRUU6TP8wzpry-8psL-L9CehsP1rTu88tw=s1360-w1360-h1020" alt="" className="fpImg"/>
+            <span className="fpName">ITC Royal Bengal</span>
+            <span className="fpCity">Kolkata</span>
+            <span className="fpPrice">Starting from Rs.10,500</span>
             <div className="fpRating">
                 <button>10</button>
                 <span>Outstanding</span>
